@@ -6,8 +6,8 @@
   --blue: #1a6bff;
   --blue-dark: #1450cc;
   --blue-light: #e8f0ff;
-  --orange: #ff6b00;
-  --orange-dark: #e05c00;
+  --orange: #1a6bff;
+  --orange-dark: #1450cc;
   --mid: #4a5568;
   --light: #f7f9fc;
   --border: #e2e8f0;
@@ -170,7 +170,7 @@ section { padding: 96px 0; }
 .r-author span { font-size: .8rem; color: var(--mid); }
 
 /* CTA BANNER */
-.cta-banner { background: linear-gradient(135deg, var(--orange), #ff9500); padding: 80px 0; }
+.cta-banner { background: linear-gradient(135deg, #1450cc, #1a6bff); padding: 80px 0; }
 .cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
 .cta-text h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; color: #fff; letter-spacing: -1px; margin-bottom: 10px; }
 .cta-text p { color: rgba(255,255,255,.85); font-size: .98rem; }
