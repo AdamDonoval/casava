@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d2855"/>
+    </linearGradient>
+    <linearGradient id="spray" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a6bff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+
+  <!-- Building / house outline -->
+  <g opacity="0.15" fill="none" stroke="#ffffff" stroke-width="2">
+    <rect x="300" y="200" width="600" height="400"/>
+    <rect x="500" y="350" width="100" height="250"/>
+    <rect x="330" y="250" width="80" height="80"/>
+    <rect x="450" y="250" width="80" height="80"/>
+    <rect x="600" y="250" width="80" height="80"/>
+    <rect x="720" y="250" width="80" height="80"/>
+    <polygon points="200,200 600,50 1000,200"/>
+    <line x1="200" y1="200" x2="1000" y2="200"/>
+  </g>
+
+  <!-- Water spray effect -->
+  <g opacity="0.5">
+    <ellipse cx="900" cy="350" rx="180" ry="80" fill="url(#spray)" transform="rotate(-30 900 350)"/>
+    <ellipse cx="920" cy="330" rx="120" ry="50" fill="#1a6bff" opacity="0.2" transform="rotate(-30 920 330)"/>
+  </g>
+
+  <!-- Pressure washer guy silhouette -->
+  <g fill="#1a6bff" opacity="0.4">
+    <!-- body -->
+    <ellipse cx="850" cy="280" rx="22" ry="28"/>
+    <!-- head -->
+    <circle cx="850" cy="245" r="20"/>
+    <!-- arm holding wand -->
+    <rect x="862" y="272" width="60" height="10" rx="5" transform="rotate(-20 862 272)"/>
+    <!-- legs -->
+    <rect x="835" y="305" width="18" height="70" rx="8"/>
+    <rect x="855" y="305" width="18" height="70" rx="8"/>
+    <!-- wand tip -->
+    <circle cx="912" cy="258" r="6"/>
+  </g>
+
+  <!-- Water droplets -->
+  <g fill="#60a5fa" opacity="0.6">
+    <circle cx="920" cy="250" r="4"/>
+    <circle cx="940" cy="265" r="3"/>
+    <circle cx="955" cy="248" r="2"/>
+    <circle cx="935" cy="280" r="5"/>
+    <circle cx="965" cy="270" r="3"/>
+    <circle cx="975" cy="255" r="2"/>
+    <circle cx="945" cy="295" r="4"/>
+    <circle cx="985" cy="285" r="3"/>
+    <circle cx="1000" cy="265" r="2"/>
+    <circle cx="990" cy="300" r="4"/>
+    <circle cx="1010" cy="280" r="3"/>
+    <circle cx="960" cy="310" r="3"/>
+    <circle cx="1020" cy="295" r="2"/>
+    <circle cx="1005" cy="315" r="4"/>
+  </g>
+
+  <!-- Shine lines on building wall -->
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.1">
+    <line x1="300" y1="200" x2="300" y2="600"/>
+    <line x1="340" y1="200" x2="340" y2="600"/>
+    <line x1="380" y1="200" x2="380" y2="600"/>
+    <line x1="420" y1="200" x2="420" y2="600"/>
+  </g>
+
+  <!-- Stars/sparkles -->
+  <g fill="#ffffff" opacity="0.5">
+    <polygon points="200,150 203,160 213,160 205,166 208,176 200,170 192,176 195,166 187,160 197,160" transform="scale(0.5) translate(200,100)"/>
+    <polygon points="200,150 203,160 213,160 205,166 208,176 200,170 192,176 195,166 187,160 197,160" transform="scale(0.3) translate(1500,400)"/>
+    <polygon points="200,150 203,160 213,160 205,166 208,176 200,170 192,176 195,166 187,160 197,160" transform="scale(0.4) translate(800,100)"/>
+  </g>
+
+  <!-- Bottom ground line -->
+  <rect x="0" y="600" width="1200" height="100" fill="#060f1e" opacity="0.5"/>
+</svg>

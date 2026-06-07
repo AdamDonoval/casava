@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14532d"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+
+  <!-- Leaf shapes background -->
+  <g fill="#16a34a" opacity="0.3">
+    <ellipse cx="80" cy="80" rx="60" ry="30" transform="rotate(-30 80 80)"/>
+    <ellipse cx="520" cy="60" rx="50" ry="25" transform="rotate(20 520 60)"/>
+    <ellipse cx="550" cy="280" rx="55" ry="28" transform="rotate(-15 550 280)"/>
+    <ellipse cx="50" cy="300" rx="45" ry="22" transform="rotate(25 50 300)"/>
+  </g>
+
+  <!-- Eco bottle / spray -->
+  <g transform="translate(200,80)">
+    <!-- Bottle body -->
+    <rect x="-25" y="30" width="50" height="100" rx="12" fill="#15803d"/>
+    <rect x="-25" y="30" width="50" height="20" rx="8" fill="#166534"/>
+    <!-- Pump -->
+    <rect x="-5" y="5" width="10" height="28" rx="4" fill="#dcfce7"/>
+    <rect x="-12" y="2" width="24" height="10" rx="4" fill="#dcfce7"/>
+    <!-- Nozzle -->
+    <path d="M12,7 Q35,-5 40,5" stroke="#bbf7d0" stroke-width="3" fill="none"/>
+    <!-- Label -->
+    <rect x="-18" y="60" width="36" height="50" rx="4" fill="#16a34a" opacity="0.8"/>
+    <!-- Leaf icon on label -->
+    <ellipse cx="0" cy="85" rx="10" ry="16" fill="#4ade80" opacity="0.7" transform="rotate(-20 0 85)"/>
+    <line x1="0" y1="70" x2="0" y2="100" stroke="#15803d" stroke-width="1.5"/>
+    <!-- Text on label -->
+    <rect x="-14" y="100" width="28" height="4" rx="2" fill="#4ade80" opacity="0.5"/>
+    <rect x="-10" y="107" width="20" height="3" rx="2" fill="#4ade80" opacity="0.4"/>
+    <!-- Bottom -->
+    <rect x="-25" y="130" width="50" height="10" rx="0 0 12 12" fill="#166534"/>
+    <!-- Spray mist -->
+    <g fill="#86efac" opacity="0.6">
+      <circle cx="55" cy="0" r="4"/>
+      <circle cx="68" cy="8" r="3"/>
+      <circle cx="75" cy="-5" r="3"/>
+      <circle cx="60" cy="15" r="2"/>
+      <circle cx="80" cy="10" r="2"/>
+      <circle cx="85" cy="-2" r="3"/>
+      <circle cx="72" cy="20" r="2"/>
+    </g>
+  </g>
+
+  <!-- Plant / sprout -->
+  <g transform="translate(380,120)">
+    <!-- Pot -->
+    <rect x="-30" y="100" width="60" height="50" rx="6" fill="#854d0e"/>
+    <rect x="-35" y="96" width="70" height="12" rx="4" fill="#a16207"/>
+    <!-- Soil -->
+    <ellipse cx="0" cy="102" rx="28" ry="8" fill="#365314"/>
+    <!-- Stem -->
+    <line x1="0" y1="100" x2="0" y2="30" stroke="#4ade80" stroke-width="6" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <ellipse cx="-25" cy="60" rx="30" ry="14" fill="#22c55e" transform="rotate(-20 -25 60)"/>
+    <ellipse cx="25" cy="45" rx="28" ry="13" fill="#4ade80" transform="rotate(15 25 45)"/>
+    <ellipse cx="-15" cy="35" rx="20" ry="10" fill="#86efac" transform="rotate(-10 -15 35)"/>
+    <!-- Shine on leaves -->
+    <ellipse cx="-20" cy="56" rx="8" ry="4" fill="#bbf7d0" opacity="0.4" transform="rotate(-20 -20 56)"/>
+    <ellipse cx="20" cy="42" rx="8" ry="3" fill="#bbf7d0" opacity="0.4" transform="rotate(15 20 42)"/>
+  </g>
+
+  <!-- Eco certification badge -->
+  <g transform="translate(470,200)">
+    <circle cx="0" cy="0" r="40" fill="#14532d" stroke="#4ade80" stroke-width="3"/>
+    <text x="0" y="-10" font-family="sans-serif" font-size="9" fill="#4ade80" text-anchor="middle" font-weight="700">ECO</text>
+    <text x="0" y="4" font-family="sans-serif" font-size="8" fill="#86efac" text-anchor="middle">CERTIFIED</text>
+    <!-- Leaf icon in badge -->
+    <ellipse cx="0" cy="18" rx="10" ry="14" fill="#22c55e" opacity="0.6" transform="rotate(-15 0 18)"/>
+    <line x1="0" y1="8" x2="0" y2="30" stroke="#14532d" stroke-width="1"/>
+  </g>
+
+  <!-- Bubbles / molecules -->
+  <g stroke="#86efac" stroke-width="2" fill="none" opacity="0.4">
+    <circle cx="100" cy="200" r="15"/>
+    <circle cx="130" cy="220" r="10"/>
+    <circle cx="110" cy="240" r="8"/>
+    <line x1="100" y1="215" x2="130" y2="220"/>
+    <line x1="130" y1="220" x2="110" y2="240"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#bbf7d0" opacity="0.8">
+    <polygon points="150,80 153,92 165,92 155,100 159,112 150,104 141,112 145,100 135,92 147,92"/>
+    <circle cx="340" cy="80" r="5"/>
+    <circle cx="360" cy="95" r="3"/>
+    <circle cx="325" cy="95" r="4"/>
+  </g>
+
+  <!-- Label -->
+  <text x="300" y="38" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">Eko čistenie</text>
+  <text x="300" y="62" font-family="Inter,sans-serif" font-size="13" fill="#bbf7d0" text-anchor="middle" opacity="0.8">Bio prípravky · Bezpečné pre rodiny</text>
+</svg>

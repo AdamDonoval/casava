@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="260" width="600" height="80" fill="#431407" opacity="0.8"/>
+  <!-- Floor tiles -->
+  <g stroke="#92400e" stroke-width="1" fill="none" opacity="0.5">
+    <line x1="0" y1="285" x2="600" y2="285"/>
+    <line x1="0" y1="310" x2="600" y2="310"/>
+    <line x1="100" y1="260" x2="100" y2="340"/>
+    <line x1="200" y1="260" x2="200" y2="340"/>
+    <line x1="300" y1="260" x2="300" y2="340"/>
+    <line x1="400" y1="260" x2="400" y2="340"/>
+    <line x1="500" y1="260" x2="500" y2="340"/>
+  </g>
+
+  <!-- Dust cloud -->
+  <ellipse cx="200" cy="230" rx="120" ry="40" fill="#92400e" opacity="0.4"/>
+  <ellipse cx="180" cy="215" rx="80" ry="30" fill="#b45309" opacity="0.3"/>
+
+  <!-- Debris on floor -->
+  <g fill="#92400e" opacity="0.7">
+    <ellipse cx="120" cy="265" rx="25" ry="8"/>
+    <ellipse cx="200" cy="268" rx="18" ry="6"/>
+    <ellipse cx="350" cy="263" rx="30" ry="7"/>
+    <ellipse cx="450" cy="267" rx="20" ry="6"/>
+    <rect x="130" y="258" width="15" height="8" rx="2" transform="rotate(-15 130 258)"/>
+    <rect x="280" y="260" width="20" height="6" rx="2" transform="rotate(10 280 260)"/>
+  </g>
+
+  <!-- Broom / industrial vacuum -->
+  <g transform="translate(360,100)">
+    <!-- Machine body -->
+    <rect x="-30" y="60" width="60" height="80" rx="10" fill="#431407"/>
+    <rect x="-25" y="65" width="50" height="30" rx="6" fill="#c2410c" opacity="0.8"/>
+    <!-- Container -->
+    <rect x="-20" y="100" width="40" height="35" rx="4" fill="#7c2d12"/>
+    <!-- Wheels -->
+    <circle cx="-18" cy="145" r="10" fill="#1c0a04" stroke="#f97316" stroke-width="2"/>
+    <circle cx="18" cy="145" r="10" fill="#1c0a04" stroke="#f97316" stroke-width="2"/>
+    <!-- Hose -->
+    <path d="M0,60 Q-40,30 -80,40" stroke="#fed7aa" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Nozzle -->
+    <rect x="-105" y="34" width="30" height="12" rx="4" fill="#e2e8f0" transform="rotate(10 -105 34)"/>
+    <!-- Suction lines -->
+    <g stroke="#fed7aa" stroke-width="1.5" opacity="0.6">
+      <line x1="-108" y1="45" x2="-90" y2="55"/>
+      <line x1="-115" y1="50" x2="-95" y2="60"/>
+      <line x1="-112" y1="42" x2="-98" y2="50"/>
+    </g>
+  </g>
+
+  <!-- Dust particles floating -->
+  <g fill="#fbbf24" opacity="0.4">
+    <circle cx="150" cy="180" r="3"/>
+    <circle cx="200" cy="160" r="2"/>
+    <circle cx="170" cy="200" r="4"/>
+    <circle cx="230" cy="175" r="2"/>
+    <circle cx="140" cy="210" r="3"/>
+    <circle cx="250" cy="190" r="2"/>
+    <circle cx="180" cy="145" r="3"/>
+    <circle cx="220" cy="220" r="2"/>
+  </g>
+
+  <!-- Hard hat -->
+  <ellipse cx="420" cy="95" rx="35" ry="15" fill="#fbbf24"/>
+  <rect x="395" y="95" width="50" height="12" rx="0" fill="#fbbf24"/>
+  <ellipse cx="420" cy="107" rx="28" ry="6" fill="#f59e0b"/>
+
+  <!-- Label -->
+  <text x="300" y="42" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">Popozberové upratovanie</text>
+  <text x="300" y="66" font-family="Inter,sans-serif" font-size="13" fill="#fed7aa" text-anchor="middle" opacity="0.8">Po stavbe · Priemysel · Garáže</text>
+</svg>

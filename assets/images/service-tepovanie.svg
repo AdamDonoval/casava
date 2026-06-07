@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1b69"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="carpet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4c1d95"/>
+      <stop offset="50%" style="stop-color:#6d28d9"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="260" width="600" height="80" fill="#1e0a4a" opacity="0.8"/>
+
+  <!-- Carpet -->
+  <rect x="80" y="200" width="440" height="140" rx="8" fill="url(#carpet)"/>
+  <!-- Carpet pattern -->
+  <g stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.4">
+    <rect x="100" y="220" width="80" height="50" rx="4"/>
+    <rect x="200" y="220" width="80" height="50" rx="4"/>
+    <rect x="300" y="220" width="80" height="50" rx="4"/>
+    <rect x="400" y="220" width="80" height="50" rx="4"/>
+    <rect x="140" y="285" width="80" height="40" rx="4"/>
+    <rect x="260" y="285" width="80" height="40" rx="4"/>
+    <rect x="380" y="285" width="80" height="40" rx="4"/>
+  </g>
+  <!-- Dirty spot on carpet -->
+  <ellipse cx="220" cy="250" rx="35" ry="20" fill="#1e0a4a" opacity="0.6"/>
+  <!-- Clean path -->
+  <rect x="150" y="195" width="80" height="145" fill="#7c3aed" opacity="0.5" rx="4"/>
+  <rect x="155" y="195" width="70" height="145" fill="#a78bfa" opacity="0.15" rx="2"/>
+
+  <!-- Carpet cleaner machine -->
+  <rect x="160" y="100" width="60" height="100" rx="10" fill="#1e0a4a"/>
+  <rect x="165" y="106" width="50" height="35" rx="6" fill="#6d28d9" opacity="0.8"/>
+  <text x="190" y="130" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.7">TEPO</text>
+  <rect x="175" y="190" width="40" height="12" rx="4" fill="#4c1d95"/>
+  <!-- Handle -->
+  <line x1="190" y1="100" x2="280" y2="30" stroke="#a78bfa" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="280" cy="28" r="12" fill="#6d28d9"/>
+  <!-- Wheels -->
+  <circle cx="170" cy="202" r="8" fill="#0f0628" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="210" cy="202" r="8" fill="#0f0628" stroke="#7c3aed" stroke-width="2"/>
+
+  <!-- Steam / bubbles from machine -->
+  <g fill="#c4b5fd" opacity="0.5">
+    <circle cx="190" cy="85" r="5"/>
+    <circle cx="200" cy="70" r="4"/>
+    <circle cx="178" cy="72" r="3"/>
+    <circle cx="208" cy="58" r="3"/>
+    <circle cx="185" cy="56" r="4"/>
+  </g>
+
+  <!-- Sparkle / clean indicator -->
+  <g fill="#a78bfa" opacity="0.8">
+    <polygon points="400,80 403,92 415,92 405,100 409,112 400,104 391,112 395,100 385,92 397,92"/>
+    <polygon points="470,120 472,128 480,128 474,133 476,141 470,136 464,141 466,133 460,128 468,128" transform="scale(0.7) translate(210,60)"/>
+  </g>
+
+  <!-- Label -->
+  <text x="300" y="45" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">Tepovanie</text>
+  <text x="300" y="70" font-family="Inter,sans-serif" font-size="13" fill="#c4b5fd" text-anchor="middle" opacity="0.8">Koberce · Sedačky · Autosedadlá</text>
+</svg>

@@ -63,7 +63,7 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,.1); }
 .hero { position: relative; background: var(--navy); min-height: 92vh; display: flex; align-items: center; overflow: hidden; }
 .hero-bg {
   position: absolute; inset: 0;
-  background: linear-gradient(135deg, #0a1628 0%, #0d1f45 40%, #0a2855 70%, #061830 100%);
+  background: url('assets/images/hero-bg.svg') center/cover no-repeat, linear-gradient(135deg, #0a1628 0%, #0d1f45 40%, #0a2855 70%, #061830 100%);
   opacity: 1;
 }
 .hero-bg::after {
@@ -118,12 +118,12 @@ section { padding: 96px 0; }
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); border-color: var(--blue); }
 .sc-img { height: 180px; background: linear-gradient(135deg, #1a6bff22, #1a6bff44); position: relative; overflow: hidden; }
-.sc-img-1 { background: linear-gradient(135deg, #0a4080, #1a6bff); }
-.sc-img-2 { background: linear-gradient(135deg, #2d1b69, #7c3aed); }
-.sc-img-3 { background: linear-gradient(135deg, #065f46, #10b981); }
-.sc-img-4 { background: linear-gradient(135deg, #7c2d12, #f97316); }
-.sc-img-5 { background: linear-gradient(135deg, #1e3a5f, #3b82f6); }
-.sc-img-6 { background: linear-gradient(135deg, #14532d, #22c55e); }
+.sc-img-1 { background: url('assets/images/service-vysokotlak.svg') center/cover no-repeat; }
+.sc-img-2 { background: url('assets/images/service-tepovanie.svg') center/cover no-repeat; }
+.sc-img-3 { background: url('assets/images/service-okna.svg') center/cover no-repeat; }
+.sc-img-4 { background: url('assets/images/service-stavba.svg') center/cover no-repeat; }
+.sc-img-5 { background: url('assets/images/service-upratovanie.svg') center/cover no-repeat; }
+.sc-img-6 { background: url('assets/images/service-eko.svg') center/cover no-repeat; }
 .sc-body { padding: 28px; flex: 1; display: flex; flex-direction: column; }
 .sc-icon { font-size: 2rem; margin-bottom: 12px; }
 .sc-body h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
