@@ -63,13 +63,13 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,.1); }
 .hero { position: relative; background: var(--navy); min-height: 92vh; display: flex; align-items: center; overflow: hidden; }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('assets/images/hero-bg.jpg') center/cover no-repeat;
+  background: url('assets/videoframe_13119.png') center/cover no-repeat;
   opacity: 1;
 }
 .hero-bg::before {
   content: '';
   position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(10,22,40,.85) 0%, rgba(13,31,69,.75) 50%, rgba(10,40,85,.7) 100%);
+  background: linear-gradient(135deg, rgba(5,15,30,.88) 0%, rgba(10,25,55,.78) 50%, rgba(5,20,50,.72) 100%);
 }
 .hero-bg::after {
   content: '';
@@ -123,7 +123,7 @@ section { padding: 96px 0; }
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); border-color: var(--blue); }
 .sc-img { height: 180px; background: linear-gradient(135deg, #1a6bff22, #1a6bff44); position: relative; overflow: hidden; }
-.sc-img-1 { background: url('assets/images/service-vysokotlak.jpg') center/cover no-repeat; }
+.sc-img-1 { background: url('assets/o1.jpg') center/cover no-repeat; }
 .sc-img-2 { background: url('assets/images/service-tepovanie.jpg') center/cover no-repeat; }
 .sc-img-3 { background: url('assets/images/service-okna.jpg') center/cover no-repeat; }
 .sc-img-4 { background: url('assets/images/service-stavba.jpg') center/cover no-repeat; }
@@ -173,6 +173,32 @@ section { padding: 96px 0; }
 }
 .r-author strong { display: block; font-size: .9rem; }
 .r-author span { font-size: .8rem; color: var(--mid); }
+
+/* PRED & PO */
+.predpo { background: var(--navy); }
+.predpo .section-head h2 { color: #fff; }
+.predpo .section-sub { color: rgba(255,255,255,.55); }
+.predpo .section-label { color: var(--blue); }
+.predpo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.predpo-card {
+  border-radius: var(--radius); overflow: hidden;
+  position: relative; cursor: pointer;
+  box-shadow: 0 4px 24px rgba(0,0,0,.4);
+  transition: transform .3s, box-shadow .3s;
+}
+.predpo-card:hover { transform: scale(1.02); box-shadow: 0 12px 40px rgba(0,0,0,.6); }
+.predpo-card img {
+  width: 100%; height: 320px;
+  object-fit: cover; display: block;
+  transition: transform .4s;
+}
+.predpo-card:hover img { transform: scale(1.04); }
+.predpo-label {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: linear-gradient(transparent, rgba(5,15,30,.9));
+  color: #fff; font-size: .88rem; font-weight: 600;
+  padding: 32px 18px 16px;
+}
 
 /* CTA BANNER */
 .cta-banner { background: linear-gradient(135deg, #1450cc, #1a6bff); padding: 80px 0; }
@@ -269,6 +295,7 @@ footer { background: var(--navy); padding: 60px 0 32px; }
   .cta-inner { flex-direction: column; text-align: center; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .preco-features { grid-template-columns: 1fr; }
+  .predpo-grid { grid-template-columns: 1fr; }
   section { padding: 64px 0; }
 }
 @media (max-width: 600px) {
