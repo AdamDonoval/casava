@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casava – Profesionálne čistenie</title>
+  <title>Casava s.r.o. – Profesionálne čistenie</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
@@ -30,7 +30,7 @@
       </ul>
       <div class="nav-right">
         <a href="tel:+421905341332" class="nav-phone">+421 905 341 332</a>
-        <a href="#kontakt" class="btn btn-orange">Bezplatná ponuka</a>
+        <a href="#kontakt" class="btn btn-blue">Bezplatná ponuka</a>
       </div>
       <button class="hamburger" id="hamburger">&#9776;</button>
     </div>
@@ -45,7 +45,7 @@
         <h1>Čistota, ktorá<br><span class="hero-accent">hovorí za seba.</span></h1>
         <p class="hero-sub">Vysokotlakové čistenie · Tepovanie · Umývanie okien<br>Spoľahlivá firma. Férové ceny. Zaručený výsledok.</p>
         <div class="hero-cta">
-          <a href="#kontakt" class="btn btn-orange btn-xl">Získať bezplatnú ponuku</a>
+          <a href="#kontakt" class="btn btn-blue btn-xl">Získať bezplatnú ponuku</a>
           <a href="tel:+421905341332" class="btn btn-outline-white btn-xl">📞 Zavolať teraz</a>
         </div>
         <div class="hero-trust">
@@ -60,22 +60,10 @@
   <!-- STATS -->
   <section class="stats">
     <div class="container stats-grid">
-      <div class="stat">
-        <strong>500+</strong>
-        <span>Spokojných zákazníkov</span>
-      </div>
-      <div class="stat">
-        <strong>5+</strong>
-        <span>Rokov skúseností</span>
-      </div>
-      <div class="stat">
-        <strong>100%</strong>
-        <span>Záruka spokojnosti</span>
-      </div>
-      <div class="stat">
-        <strong>24h</strong>
-        <span>Odpoveď na dopyt</span>
-      </div>
+      <div class="stat"><strong>500+</strong><span>Spokojných zákazníkov</span></div>
+      <div class="stat"><strong>5+</strong><span>Rokov skúseností</span></div>
+      <div class="stat"><strong>100%</strong><span>Záruka spokojnosti</span></div>
+      <div class="stat"><strong>24h</strong><span>Odpoveď na dopyt</span></div>
     </div>
   </section>
 
@@ -88,35 +76,67 @@
         <p class="section-sub">Postaráme sa o každý kút vašej nehnuteľnosti</p>
       </div>
 
-      <div class="services-grid">
-
-        <div class="service-card featured">
-          <div class="sc-img sc-img-1"></div>
-          <div class="sc-body">
-            <div class="sc-icon">🚿</div>
-            <h3>Vysokotlakové čistenie</h3>
-            <p>Efektívne odstránenie nečistôt, machov, rias a povlakov z terás, chodníkov, fasád, plotov a parkovísk.</p>
-            <ul class="sc-list">
-              <li>Terasy a chodníky</li>
-              <li>Fasády a múry</li>
-              <li>Parkoviská a príjazdové cesty</li>
-            </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+      <!-- FEATURED: Vysokotlakové čistenie -->
+      <div class="service-featured">
+        <div class="sf-gallery">
+          <div class="sf-main">
+            <img src="assets/o1.jpg" alt="Vysokotlakové čistenie dlažby" loading="lazy" />
+            <div class="sf-main-overlay">
+              <span class="sf-tag-img">🚿 V akcii</span>
+            </div>
+          </div>
+          <div class="sf-thumbs">
+            <div class="sf-thumb">
+              <img src="assets/o2.jpg" alt="Pred a po čistenie terasy" loading="lazy" />
+              <span class="thumb-label">Pred &amp; Po</span>
+            </div>
+            <div class="sf-thumb">
+              <img src="assets/o3.jpg" alt="Pred a po čistenie fasády" loading="lazy" />
+              <span class="thumb-label">Pred &amp; Po</span>
+            </div>
+            <div class="sf-thumb">
+              <img src="assets/o4.jpg" alt="Pred a po čistenie fasády" loading="lazy" />
+              <span class="thumb-label">Pred &amp; Po</span>
+            </div>
+            <div class="sf-thumb">
+              <img src="assets/o5.jpg" alt="Pred a po čistenie fasády" loading="lazy" />
+              <span class="thumb-label">Pred &amp; Po</span>
+            </div>
           </div>
         </div>
+        <div class="sf-content">
+          <div class="sf-badge">⭐ Naša najobľúbenejšia služba</div>
+          <h3>Vysokotlakové čistenie</h3>
+          <p>Efektívne odstránenie nečistôt, machov, rias a povlakov z akéhokoľvek povrchu. Výsledok vidíte na prvý pohľad – ako nové.</p>
+          <ul class="sc-list">
+            <li>Terasy, chodníky a dlažby</li>
+            <li>Fasády a obvodové múry</li>
+            <li>Parkoviská a príjazdové cesty</li>
+            <li>Ploty, oplotenia, pergoly</li>
+          </ul>
+          <div class="sf-stats">
+            <div class="sf-stat"><strong>300+</strong><span>vyčistených terás</span></div>
+            <div class="sf-stat"><strong>100%</strong><span>spokojnosť</span></div>
+          </div>
+          <a href="#kontakt" class="btn btn-blue">Mám záujem →</a>
+        </div>
+      </div>
+
+      <!-- OTHER 5 SERVICES -->
+      <div class="services-grid">
 
         <div class="service-card">
           <div class="sc-img sc-img-2"></div>
           <div class="sc-body">
             <div class="sc-icon">🛋️</div>
             <h3>Tepovanie</h3>
-            <p>Hĺbkové čistenie kobercov, sedačiek a čalúneného nábytku. Bez zápachu, bez škvŕn, bez alergénov.</p>
+            <p>Hĺbkové čistenie kobercov, sedačiek a čalúneného nábytku. Bez zápachu, bez škvŕn.</p>
             <ul class="sc-list">
               <li>Koberce a dlžiny</li>
               <li>Sedačky a kreslá</li>
               <li>Autosedadlá a interiér</li>
             </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+            <a href="#kontakt" class="btn btn-outline-blue sc-btn">Mám záujem →</a>
           </div>
         </div>
 
@@ -131,7 +151,7 @@
               <li>Kancelárske budovy</li>
               <li>Výklady a vitrínky</li>
             </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+            <a href="#kontakt" class="btn btn-outline-blue sc-btn">Mám záujem →</a>
           </div>
         </div>
 
@@ -140,13 +160,13 @@
           <div class="sc-body">
             <div class="sc-icon">🏗️</div>
             <h3>Popozberové upratovanie</h3>
-            <p>Kompletné upratanie po stavbe alebo rekonštrukcii – prach, omietka, lepidlá, zvyšky materiálu.</p>
+            <p>Kompletné upratanie po stavbe alebo rekonštrukcii – prach, omietka, lepidlá.</p>
             <ul class="sc-list">
               <li>Po stavbe a rekonštrukcii</li>
               <li>Priemyselné priestory</li>
               <li>Garáže a sklady</li>
             </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+            <a href="#kontakt" class="btn btn-outline-blue sc-btn">Mám záujem →</a>
           </div>
         </div>
 
@@ -155,13 +175,13 @@
           <div class="sc-body">
             <div class="sc-icon">🏢</div>
             <h3>Pravidelné upratovanie</h3>
-            <p>Dlhodobá starostlivosť o čistotu vašej firmy alebo domu. Prispôsobíme sa vašemu harmonogramu.</p>
+            <p>Dlhodobá starostlivosť o čistotu vašej firmy alebo domu.</p>
             <ul class="sc-list">
               <li>Kancelárie a prevádzky</li>
               <li>Bytové domy</li>
               <li>Rodinné domy</li>
             </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+            <a href="#kontakt" class="btn btn-outline-blue sc-btn">Mám záujem →</a>
           </div>
         </div>
 
@@ -170,13 +190,13 @@
           <div class="sc-body">
             <div class="sc-icon">🌿</div>
             <h3>Eko čistenie</h3>
-            <p>Ekologické prípravky šetrné k deťom, domácim zvieratám aj životnému prostrediu.</p>
+            <p>Ekologické prípravky šetrné k deťom, domácim zvieratám aj prírode.</p>
             <ul class="sc-list">
               <li>Bio prípravky</li>
               <li>Bezpečné pre rodiny</li>
               <li>Certifikované produkty</li>
             </ul>
-            <a href="#kontakt" class="btn btn-blue sc-btn">Mám záujem →</a>
+            <a href="#kontakt" class="btn btn-outline-blue sc-btn">Mám záujem →</a>
           </div>
         </div>
 
@@ -191,51 +211,15 @@
         <p class="section-label light">Prečo my</p>
         <h2>Čistenie, ktorému<br>môžete dôverovať</h2>
         <p class="preco-sub">Nie sme len ďalšia upratovacia firma. Každý zákazník dostáva plnú pozornosť, profesionálny prístup a výsledok, za ktorý sa nehanblíme.</p>
-        <a href="#kontakt" class="btn btn-orange">Vyžiadať ponuku zadarmo</a>
+        <a href="#kontakt" class="btn btn-blue">Vyžiadať ponuku zadarmo</a>
       </div>
       <div class="preco-features">
-        <div class="pf-item">
-          <div class="pf-icon">🔧</div>
-          <div>
-            <strong>Moderná technika</strong>
-            <p>Profesionálne stroje a overené čistiace prípravky pre dokonalý výsledok.</p>
-          </div>
-        </div>
-        <div class="pf-item">
-          <div class="pf-icon">💰</div>
-          <div>
-            <strong>Transparentné ceny</strong>
-            <p>Cenová ponuka vopred, bez prekvapení. To čo vidíte, to aj zaplatíte.</p>
-          </div>
-        </div>
-        <div class="pf-item">
-          <div class="pf-icon">📅</div>
-          <div>
-            <strong>Flexibilný termín</strong>
-            <p>Prispôsobíme sa vám – aj víkendy a sviatky nie sú problém.</p>
-          </div>
-        </div>
-        <div class="pf-item">
-          <div class="pf-icon">🛡️</div>
-          <div>
-            <strong>Poistení odborníci</strong>
-            <p>Váš majetok je u nás v bezpečí počas celej doby práce.</p>
-          </div>
-        </div>
-        <div class="pf-item">
-          <div class="pf-icon">⭐</div>
-          <div>
-            <strong>Záruka spokojnosti</strong>
-            <p>Ak nie ste spokojní, prídeme to napraviť. Zadarmo.</p>
-          </div>
-        </div>
-        <div class="pf-item">
-          <div class="pf-icon">🌱</div>
-          <div>
-            <strong>Eko prístupy</strong>
-            <p>Ekologické prípravky bezpečné pre celú rodinu aj životné prostredie.</p>
-          </div>
-        </div>
+        <div class="pf-item"><div class="pf-icon">🔧</div><div><strong>Moderná technika</strong><p>Profesionálne stroje a overené čistiace prípravky.</p></div></div>
+        <div class="pf-item"><div class="pf-icon">💰</div><div><strong>Transparentné ceny</strong><p>Cenová ponuka vopred, bez prekvapení.</p></div></div>
+        <div class="pf-item"><div class="pf-icon">📅</div><div><strong>Flexibilný termín</strong><p>Prispôsobíme sa vám – aj víkendy a sviatky.</p></div></div>
+        <div class="pf-item"><div class="pf-icon">🛡️</div><div><strong>Poistení odborníci</strong><p>Váš majetok je u nás v bezpečí.</p></div></div>
+        <div class="pf-item"><div class="pf-icon">⭐</div><div><strong>Záruka spokojnosti</strong><p>Ak nie ste spokojní, prídeme to napraviť zadarmo.</p></div></div>
+        <div class="pf-item"><div class="pf-icon">🌱</div><div><strong>Eko prístupy</strong><p>Ekologické prípravky bezpečné pre celú rodinu.</p></div></div>
       </div>
     </div>
   </section>
@@ -256,97 +240,32 @@
         <div class="review-card">
           <div class="r-stars">★★★★★</div>
           <p>"Príjemný personál, perfektná práca. Terasa vyzerá ako nová po vysokotlakovom čistení. Určite odporúčam!"</p>
-          <div class="r-author">
-            <div class="r-avatar">MK</div>
-            <div>
-              <strong>Martin K.</strong>
-              <span>Bratislava</span>
-            </div>
-          </div>
+          <div class="r-author"><div class="r-avatar">MK</div><div><strong>Martin K.</strong><span>Bratislava</span></div></div>
         </div>
         <div class="review-card">
           <div class="r-stars">★★★★★</div>
           <p>"Tepovali mi sedačku a koberce. Výsledok bol úžasný, škvŕny zmizli a všetko krásne voní. Cena bola veľmi férová."</p>
-          <div class="r-author">
-            <div class="r-avatar">ZH</div>
-            <div>
-              <strong>Zuzana H.</strong>
-              <span>Trnava</span>
-            </div>
-          </div>
+          <div class="r-author"><div class="r-avatar">ZH</div><div><strong>Zuzana H.</strong><span>Trnava</span></div></div>
         </div>
         <div class="review-card">
           <div class="r-stars">★★★★★</div>
           <p>"Umyli nám okná v celej kancelárskej budove. Rýchlo, čisto, bez jedinej šmúhy. Spoluprácu určite obnovíme."</p>
-          <div class="r-author">
-            <div class="r-avatar">PL</div>
-            <div>
-              <strong>Peter L.</strong>
-              <span>Nitra</span>
-            </div>
-          </div>
+          <div class="r-author"><div class="r-avatar">PL</div><div><strong>Peter L.</strong><span>Nitra</span></div></div>
         </div>
         <div class="review-card">
           <div class="r-stars">★★★★★</div>
           <p>"Po rekonštrukcii domu bolo všetko pokryté prachom. Casava to vyčistili do posledného kútika. Super služba!"</p>
-          <div class="r-author">
-            <div class="r-avatar">LN</div>
-            <div>
-              <strong>Lucia N.</strong>
-              <span>Žilina</span>
-            </div>
-          </div>
+          <div class="r-author"><div class="r-avatar">LN</div><div><strong>Lucia N.</strong><span>Žilina</span></div></div>
         </div>
         <div class="review-card">
           <div class="r-stars">★★★★★</div>
           <p>"Pravidelne upratujú naše kancelárie každý týždeň. Spoľahliví, dôslední a príjemní. Odporúčam každej firme."</p>
-          <div class="r-author">
-            <div class="r-avatar">TM</div>
-            <div>
-              <strong>Tomáš M.</strong>
-              <span>Košice</span>
-            </div>
-          </div>
+          <div class="r-author"><div class="r-avatar">TM</div><div><strong>Tomáš M.</strong><span>Košice</span></div></div>
         </div>
         <div class="review-card">
           <div class="r-stars">★★★★☆</div>
           <p>"Veľmi profesionálny prístup. Príjazd načas, práca bez problémov. Dvorček vyzerá fantasticky."</p>
-          <div class="r-author">
-            <div class="r-avatar">EV</div>
-            <div>
-              <strong>Eva V.</strong>
-              <span>Prešov</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRED & PO -->
-  <section class="predpo" id="predpo">
-    <div class="container">
-      <div class="section-head">
-        <p class="section-label">Výsledky</p>
-        <h2>Pred &amp; Po</h2>
-        <p class="section-sub">Reálne výsledky od našich zákazníkov – žiadne úpravy, len čistá práca</p>
-      </div>
-      <div class="predpo-grid">
-        <div class="predpo-card">
-          <img src="assets/o2.jpg" alt="Pred a po čistení terasy" loading="lazy" />
-          <div class="predpo-label">Čistenie terasy – rotačná hlavica</div>
-        </div>
-        <div class="predpo-card">
-          <img src="assets/o3.jpg" alt="Pred a po čistení fasády" loading="lazy" />
-          <div class="predpo-label">Čistenie fasády domu</div>
-        </div>
-        <div class="predpo-card">
-          <img src="assets/o4.jpg" alt="Pred a po čistení fasády" loading="lazy" />
-          <div class="predpo-label">Čistenie fasády – rodinný dom</div>
-        </div>
-        <div class="predpo-card">
-          <img src="assets/o5.jpg" alt="Pred a po čistení fasády" loading="lazy" />
-          <div class="predpo-label">Čistenie fasády – bytový dom</div>
+          <div class="r-author"><div class="r-avatar">EV</div><div><strong>Eva V.</strong><span>Prešov</span></div></div>
         </div>
       </div>
     </div>
@@ -360,7 +279,7 @@
         <p>Kontaktujte nás ešte dnes. Bezplatná obhliadka a cenová ponuka do 24 hodín.</p>
       </div>
       <div class="cta-actions">
-        <a href="#kontakt" class="btn btn-orange btn-xl">Získať cenovú ponuku</a>
+        <a href="#kontakt" class="btn btn-white-cta btn-xl">Získať cenovú ponuku</a>
         <a href="tel:+421905341332" class="cta-phone">📞 +421 905 341 332</a>
       </div>
     </div>
@@ -412,24 +331,15 @@
         <div class="kontakt-items">
           <a href="tel:+421905341332" class="kontakt-item">
             <div class="k-icon">📞</div>
-            <div>
-              <strong>Telefón</strong>
-              <span>+421 905 341 332</span>
-            </div>
+            <div><strong>Telefón</strong><span>+421 905 341 332</span></div>
           </a>
           <a href="mailto:info@casava.sk" class="kontakt-item">
             <div class="k-icon">✉️</div>
-            <div>
-              <strong>E-mail</strong>
-              <span>info@casava.sk</span>
-            </div>
+            <div><strong>E-mail</strong><span>info@casava.sk</span></div>
           </a>
           <div class="kontakt-item">
             <div class="k-icon">📍</div>
-            <div>
-              <strong>Pôsobnosť</strong>
-              <span>Celé Slovensko</span>
-            </div>
+            <div><strong>Pôsobnosť</strong><span>Celé Slovensko</span></div>
           </div>
         </div>
       </div>
@@ -466,7 +376,7 @@
           <label>Správa</label>
           <textarea rows="4" placeholder="Popíšte vašu požiadavku..."></textarea>
         </div>
-        <button type="submit" class="btn btn-orange full-width">Odoslať požiadavku zadarmo</button>
+        <button type="submit" class="btn btn-blue full-width">Odoslať požiadavku zadarmo</button>
         <p class="form-note">🔒 Vaše údaje sú u nás v bezpečí. Odpovieme do 24 hodín.</p>
       </form>
     </div>
@@ -478,7 +388,7 @@
       <div class="footer-top">
         <div class="footer-brand">
           <a href="#" class="logo">casava<span>.</span></a>
-          <p>Profesionálne čistiace služby na Slovensku. Rýchlo, spoľahlivo, bez starostí.</p>
+          <p>Casava s.r.o. – Profesionálne čistiace služby na Slovensku. Rýchlo, spoľahlivo, bez starostí.</p>
         </div>
         <div class="footer-links">
           <strong>Služby</strong>
@@ -501,7 +411,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Casava. Všetky práva vyhradené.</span>
+        <span>© 2025 Casava s.r.o. Všetky práva vyhradené.</span>
       </div>
     </div>
   </footer>
